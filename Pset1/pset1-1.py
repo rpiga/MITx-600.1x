@@ -2,7 +2,7 @@
 """
 Created on Sat Jan 28 21:27:47 2017
 
-@author: Mork
+@author: Roberto Piga
 """
 
 s = "azcbobobegghakl"
