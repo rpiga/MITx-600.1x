@@ -16,10 +16,10 @@ for char in s:
     if char >= charval:
         subString += char
     elif char < charval:
-        if len(subString) > len(maxString):
-            maxString = subString
         subString = char
 
     charval = char
+    if len(subString) > len(maxString):
+        maxString = subString
 
 print("Longest substring in alphabetical order is:", maxString)
